@@ -1,0 +1,23 @@
+{
+  "name": "ei-collapse-boxes-1",
+  "version": "1.0.0",
+  "description": "client side code of expanding and collapsing boxes",
+  "main": "expand-collapse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmergentIdeas/ei-collapse-boxes-1.git"
+  },
+  "author": "Dan Kolz (Emergent Ideas)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmergentIdeas/ei-collapse-boxes-1/issues"
+  },
+  "homepage": "https://github.com/EmergentIdeas/ei-collapse-boxes-1#readme",
+  "dependencies": {
+    "jquery": "^1.12.4",
+    "tripartite": "^1.0.9"
+  }
+}
