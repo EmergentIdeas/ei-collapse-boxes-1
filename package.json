@@ -1,6 +1,6 @@
 {
   "name": "ei-collapse-boxes-1",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "client side code of expanding and collapsing boxes",
   "main": "expand-collapse.js",
   "scripts": {

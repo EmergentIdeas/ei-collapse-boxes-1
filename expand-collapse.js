@@ -45,8 +45,8 @@ var createExpandBoxes = function(controlSelector, targetSelector, options) {
 	}
 	else {
 		ExpandoSet.prototype.open = function() {
-			$(this.control).addClass('open')
-			$(this.target).show().addClass('open')
+			$(this.control).addClass('open').removeClass('closed')
+			$(this.target).addClass('open').removeClass('closed')
 		}	
 	}
 	
@@ -55,8 +55,8 @@ var createExpandBoxes = function(controlSelector, targetSelector, options) {
 	}
 	else {
 		ExpandoSet.prototype.close = function() {
-			$(this.control).removeClass('open')
-			$(this.target).hide().removeClass('open')
+			$(this.control).removeClass('open').addClass('closed')
+			$(this.target).removeClass('open').addClass('closed')
 		}	
 	}
 	
