@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/EmergentIdeas/ei-collapse-boxes-1#readme",
   "dependencies": {
-    "jquery": "^1.12.4",
+    "jquery": "^3.5.0",
     "tripartite": "^1.0.9"
   }
 }
